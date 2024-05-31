@@ -36,12 +36,11 @@
             <artifactId>fastjson2</artifactId>
             <version>2.0.43</version>
         </dependency>
-        <!--pet插件本地引入 https://github.com/Dituon/petpet/releases -->
-        <!--mvn install:install-file -Dfile=petpet-6.1.jar -DgroupId=xmmt.dituon -DartifactId=petpet  -Dversion=6.1  -Dpackaging=jar-->
+        <!-- https://mvnrepository.com/artifact/net.coobird/thumbnailator -->
         <dependency>
-            <groupId>xmmt.dituon</groupId>
-            <artifactId>petpet</artifactId>
-            <version>6.1</version>
+            <groupId>net.coobird</groupId>
+            <artifactId>thumbnailator</artifactId>
+            <version>0.4.20</version>
         </dependency>
         <dependency>
             <groupId>org.jsoup</groupId>
